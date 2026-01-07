@@ -22,8 +22,9 @@ namespace NewTestApp
             //testing t = new testing();
             //t.viewmsg();
             //console.readkey();
-            Casting cas=new Casting();
-            cas.implCasting();
+            Casting cas = new Casting();
+            //cas.implCasting();
+            cas.ExplicitCasting();
 
         }
 

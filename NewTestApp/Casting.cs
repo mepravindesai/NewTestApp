@@ -17,5 +17,15 @@ namespace NewTestApp
             b = a;
             Console.WriteLine("Value of Float var b ={0}", b);
         }
+        public void ExplicitCasting()
+        {
+            int a;
+            float b=45.2562f;
+
+            Console.WriteLine("Current Float val: " + b);
+            Console.WriteLine("Explicit conversion:");
+            a =(int)b;
+            Console.WriteLine("Value of int var a ={0}", a);
+        }
     }
 }
