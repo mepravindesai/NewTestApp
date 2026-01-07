@@ -10,23 +10,32 @@ namespace NewTestApp
     {
         public static void Main()
         {
-            //int a, b, sum;
-            //console.write("enter first num:");
-            //a = convert.toint32(console.readline());
-            //console.write("enter second num:");
-            //b = convert.toint32(console.readline());
-            //sum = a + b;
-            //console.write("final sum :");
-            //console.writeline(sum);
-            //console.writeline(new refer());
-            //testing t = new testing();
-            //t.viewmsg();
-            //console.readkey();
-            Casting cas = new Casting();
-            //cas.implCasting();
-            cas.ExplicitCasting();
+
+            int i = 50;
+            while (i < 55)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            i = 50;
+            Console.WriteLine("do-while Loop in C#");
+            Console.WriteLine("Displaying Values!");
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            while (i > 55);
+
+            Console.WriteLine("For Loop in C#");
+            int t;
+
+            for (t = 0; t < 10; t++)
+            {
+                Console.WriteLine(t);
+            }
 
         }
-
     }
 }
