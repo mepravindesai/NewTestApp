@@ -10,18 +10,20 @@ namespace NewTestApp
     {
         public static void Main()
         {
-            int a, b, sum;
-            Console.Write("Enter first num:");
-            a = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter Second num:");
-            b = Convert.ToInt32(Console.ReadLine());
-            sum = a + b;
-            Console.Write("Final Sum :");
-            Console.WriteLine(sum);
-            Console.WriteLine(new Refer());
-            testing t = new testing();
-            t.viewMSG();
-            Console.ReadKey();
+            //int a, b, sum;
+            //console.write("enter first num:");
+            //a = convert.toint32(console.readline());
+            //console.write("enter second num:");
+            //b = convert.toint32(console.readline());
+            //sum = a + b;
+            //console.write("final sum :");
+            //console.writeline(sum);
+            //console.writeline(new refer());
+            //testing t = new testing();
+            //t.viewmsg();
+            //console.readkey();
+            Casting cas=new Casting();
+            cas.implCasting();
 
         }
 
