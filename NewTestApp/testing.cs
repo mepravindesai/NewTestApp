@@ -18,5 +18,16 @@ namespace NewTestApp
 
             Console.WriteLine("Final Sum: " + d);
         }
+
+        public void Display()
+        {
+            int a = 4;
+            float b = 45.589f;
+
+            Double d = 0.0d;
+            d = a + b;
+
+            Console.WriteLine("Final Sum: " + d);
+        }
     }
 }
