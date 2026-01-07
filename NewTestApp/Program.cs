@@ -8,7 +8,7 @@ namespace NewTestApp
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int a, b, sum;
             Console.Write("Enter first num:");
@@ -22,5 +22,6 @@ namespace NewTestApp
             Console.ReadKey();
 
         }
+
     }
 }
