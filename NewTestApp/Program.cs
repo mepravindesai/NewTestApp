@@ -19,6 +19,8 @@ namespace NewTestApp
             Console.Write("Final Sum :");
             Console.WriteLine(sum);
             Console.WriteLine(new Refer());
+            testing t = new testing();
+            t.viewMSG();
             Console.ReadKey();
 
         }
